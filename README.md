@@ -1,1 +1,13 @@
-# CS-340
+CS 340 Module Eight Journal Reflection
+
+How do you develop programs that are easy to modify (maintainable), simple to follow (readable), and able to adapt to changing needs?
+
+To develop programs that are easily modified, simple to follow, and able to adapt to changes, I attempt to break down my programs into separate components and keep my code organized. The CRUD Python module used in Project One was helpful for organizing my code in Project Two. Rather than rewriting the MongoDB connection and database logic, I simply reused the CRUD module in Project Two. The CRUD module took care of all the create, read, update, and delete operations, while the dashboard code mainly dealt with displaying and filtering the data.
+
+The advantages of developing in this manner were very noticable. First, it allowed me to manage the complexity of the project better. Second, if something went wrong during development, I could isolate where the issue occurred. If the issue was related to connecting to the database, I could review the CRUD module. If the issue was with the dashboard display, I could focus solely on the dashboard code. To further assist others who may want to use my program in the future, I provided comments within my code so that it is easier to understand what function each section of code performs. In the future, I will consider creating another similar CRUD module for projects that utilize MongoDB, such as inventory management systems, customer databases, and other types of data dashboards.
+
+How do you address a problem as a computer scientist?
+
+As a computer scientist, I typically begin addressing a problem by dividing its requirements into manageable sections and then completing them individually. When working on the Grazioso Salvare project, I began by establishing the database and implementing the CRUD functionality before progressing to the development of the dashboard. Following that, I implemented the DataTable, filters, chart, and map individually and tested each part as I completed it.
+
+When compared to many of the previous individual assignments I have completed, this assignment was unique because I had to incorporate several distinct components of an application. Rather than just developing a single program, I had to consider the database storage, Python programming code, user queries, the user interface, and how all of these elements interacted with each other. Going forward, I plan on continuing to apply the same strategy by reviewing the client's specifications first, determining how best to store the data, developing each feature independently, and testing all of the features before combining them into a final application.
